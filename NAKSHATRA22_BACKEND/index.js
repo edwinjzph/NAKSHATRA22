@@ -15,12 +15,12 @@ admin.initializeApp({
 
 app.use(cors({ origin: true }));
 app.use(express.json({limit : '1mb' }))
-const razorpay= new Razorpay({ key_id: 'rzp_live_0v9NzfHYNgMrVD',
- key_secret: 'gbSOhi44QvDxzoq8LWQHoI2C' })
+const razorpay= new Razorpay({ key_id: 'rzp_**********',
+ key_secret: '*******************' })
 
  app.post('/verification',async (req,res) =>{
 	// do a validation
-	const secret = '3167967'
+	const secret = '************'
 
 
 	const crypto = require('crypto')
@@ -171,7 +171,7 @@ const razorpay= new Razorpay({ key_id: 'rzp_live_0v9NzfHYNgMrVD',
               } catch (error) {
                 console.log('Error in creating user', error);
               }}
-            sgMail.setApiKey('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')
+            sgMail.setApiKey('**********************************')
             const msg = {
               to: obj2.userdetails.email, // Change to your recipient
               from: 'edwinjzph2000@gmail.com', // Change to your verified sender
@@ -740,7 +740,7 @@ app.post('/webreferal', async (req,res) =>{
   
 })  
 app.post('/payoffline', async (req,res) =>{
-  const secret = "3167967";
+  const secret = "********";
   console.log(req.body)
   if(req?.body.notes.secret===secret){
     const obj =  JSON.parse(req.body.notes?.groupmembers);
