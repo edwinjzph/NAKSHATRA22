@@ -1,0 +1,94 @@
+.contactus {
+  color: white;
+  display: flex;
+
+  width: 90%;
+  align-items: center;
+
+  flex-direction: row;
+}
+.info {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+  margin: auto;
+}
+.info_sub {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-direction: row;
+}
+.info_sub p {
+  text-align: center;
+  width: 200px;
+}
+.informinput {
+  display: flex;
+  flex-direction: column;
+}
+.infoform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.infoform input,
+textarea {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  color: #fff;
+  border: 1px solid purple;
+  max-width: 300px;
+  min-width: 300px;
+}
+:focus {
+  outline: none;
+}
+.infoform form {
+  gap: 20px;
+}
+.infoform button {
+  max-width: 100px;
+  padding: 8px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: black;
+  border: 1px solid purple;
+}
+.infoform h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contactus_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 80px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 900px) {
+  .contactus {
+    gap: 60px;
+
+    flex-direction: column;
+  }
+  .info_sub {
+    flex-direction: column;
+    gap: 0;
+  }
+  .info {
+    gap: 20px;
+  }
+  .contactus_top {
+    gap: 30px;
+    margin-top: 100px;
+    justify-content: flex-start;
+  }
+}

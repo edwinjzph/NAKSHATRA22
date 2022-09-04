@@ -1,0 +1,138 @@
+.footer1 {
+  background-image: url(https://ik.imagekit.io/p4td4xk6gcki/Group_836_-9zP_UN7w.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648141159527);
+  background-size: cover;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  background-position: center;
+}
+
+.anc2{
+  color: #fff;
+text-decoration: none;
+}
+.anc2:hover{
+  text-decoration: underline;
+}
+.faq {
+  display: flex;
+  gap: 30px;
+max-width: 1200px;
+  display: flex;
+  height: 100%;
+  bottom: 0;
+margin-top: 70PX;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+}
+.faq-row-wrapper {
+  width: 90%;
+  justify-content: flex-end;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.527) !important;
+  padding: 10px;
+}
+iframe {
+  margin: 0 !important;
+  margin-top: 10px;
+}
+.footer {
+  font-weight: 400;
+  gap: 15px;
+  width: 100%;
+  padding: 20px 0;
+
+  margin-top: 30px;
+  background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(111, 111, 111, 0) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .social {
+  text-align: center;
+
+  color: white;
+}
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 1;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  font-size: small;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.footer ul li .anc {
+  color: inherit;
+  text-decoration: none;
+  opacity: 1;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul li .anc:hover {
+  opacity: 0.5;
+}
+.footer p {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+@media screen and (max-width: 1050px) {
+  .footer1 {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+  .faq {
+    flex-direction: column;
+  }
+}
+.fas {
+  color: red;
+}
+.love {
+  color: #fff;
+  text-decoration: none;
+}

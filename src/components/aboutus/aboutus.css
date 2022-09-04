@@ -1,0 +1,195 @@
+.about_us_main {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  background: rgb(221, 156, 99);
+  background: linear-gradient(
+    180deg,
+    rgba(221, 156, 99, 1) 0%,
+    rgb(0, 0, 0) 59%
+  );
+}
+.aboutus_subdiv h1{
+width: 100%;
+font-size: 65px !important;
+text-align: center;
+margin-bottom: 50px !important;
+}
+.imagediv {
+  border-radius: 10px;
+  height: 250px;
+  width: 400px;
+
+  border: 2px solid #f2039a;
+}
+.con_squ {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+}
+.empty_div {
+  height: 50px;
+  border-radius: 10px;
+  width: 50px;
+  border: 2px solid #f2039a;
+}
+.imagediv img {
+  height: 250px;
+  width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.gallery {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  max-width: 1200px;
+  margin: auto;
+  flex-direction: row;
+}
+.gallery_subdiv {
+  align-items: flex-end;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 50%;
+}
+.content {
+  width:500px;
+}
+.conten2{
+  width: 400px;
+  color: #fff;
+  font-family: 'Gothic A1', sans-serif;
+}
+.content p {
+  width: 100%;
+  font-family: 'Gothic A1', sans-serif;
+  color: #fff;
+}
+.second_div {
+  align-items: flex-start;
+}
+.ina {
+  border-radius: 10px;
+  height: 280px;
+  width: 500px;
+  border: 2px solid #f2039a;
+}
+.ina img {
+  height: 280px;
+  border-radius: 10px;
+  object-fit: cover;
+  width: 500px;
+}
+.second_div {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+}
+.ina_sec,
+.ina_sec img {
+  width: 400px !important;
+}
+.img_sec,
+.img_sec img {
+  height: 300px !important;
+  width: 450px;
+}
+.emp_sec {
+  height: 30px;
+  width: 30px;
+}
+.aboutus h1 {
+  color: #fff;
+  font-family: "light";
+  font-size: 50px;
+  margin-top: 0;
+  line-height: 40px;
+  height: min-content;
+  align-items: center;
+  padding-top: 0;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px #f0a, 0 0 20px #ff00d4;
+}
+.flicker-slow {
+  animation: flicker 6s linear infinite;
+}
+
+.flicker-fast {
+  animation: flicker 2s linear infinite;
+}
+.flicker-medium {
+  animation: flicker 8s linear infinite;
+}
+
+@keyframes flicker {
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
+    opacity: 0.99;
+  }
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    opacity: 0.4;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .gallery {
+    display: none;
+  }
+}
+@media screen and (min-width: 1030px) {
+  .about_forphone {
+    display: none !important ;
+  }
+}
+.about_forphone {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  align-items: center;
+  flex-direction: column;
+}
+.about_forphone img {
+  width: 300px;
+  border: 3px solid #f2039a;
+  object-fit: cover;
+  border-radius: 10px;
+  max-height: 300px;
+}
+@media screen and (max-width: 600px) {
+  .about_forphone img {
+    width: 100%;
+    border: 3px solid #f2039a;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 200px;
+  }
+  .aboutus_subdiv h1{
+    font-size: 50px !important;
+  }
+}

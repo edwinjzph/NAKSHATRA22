@@ -1,0 +1,13 @@
+.toast {
+  display: flex;
+  margin: 2px;
+  padding: auto;
+  flex-direction: column;
+}
+.toast h5 {
+  margin-bottom: 4px;
+}
+.buttontoast {
+  width: 100%;
+  margin-top: 5px;
+}

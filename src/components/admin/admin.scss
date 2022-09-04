@@ -1,0 +1,277 @@
+.dropbtn {
+    padding: 10px;
+    font-size: small;
+    color:   #ff067a;
+    margin: 8px;
+  
+    min-width: 90px;
+    border: 1px solid #f2039a;
+ 
+    background-color: rgba(44, 41, 41, 0.384);
+    cursor: pointer;
+    font-family: "batsman";
+    border-radius: 10px;
+  }
+  .dropshadow{
+    box-shadow: 0 0 1rem 0 #ff067a;
+  }
+  .filter_admin{
+      width: 100%;
+      padding-top:120px !important;
+      justify-content: center;
+   
+      display: flex;
+      align-items: center;
+  }
+  .dropdown{
+    align-items: flex-start;
+    display: block;
+
+    width: 80%;
+
+  }
+ 
+  
+  #demo-simple-select{
+    color: #000;
+    width: 80%;
+  }
+  .adminflex1{
+    margin: 0 !important;
+  }
+  .Signup_box {
+padding-bottom: 20px;
+
+background: linear-gradient(
+  90deg,
+  rgba(177, 3, 107, 1) 0%,
+  rgba(1, 25, 29, 1) 100%
+);
+    object-fit: cover;
+ 
+    min-height: 100vh;
+    height: 100%;
+    align-items: center;
+  
+  background-size: cover;
+    width: 100%;
+  }
+
+  .flex_1 {
+    max-width: 500px;
+    height: max-content;
+margin-top: 30px !important;
+    height: 100%;
+    align-items: center;
+    margin: auto !important;
+  }
+  .addevent button{
+    width: 95% !important;
+
+  }
+
+  .adminflex1{
+    width: 90% !important;
+
+  margin: 30px auto auto auto !important;
+  }
+  .forgot_margin {
+    margin-top: 32px !important;
+  }
+  .flex_1 h5,
+  button {
+    z-index: 200;
+  }
+  .signup h1 {
+    font-size: x-large !important;
+    margin-top: 17px;
+  }
+  .flex_1 h1 {
+    margin-bottom: 27px;
+    text-align: center;
+  
+    font-size: xx-large;
+    font-weight: 700;
+  }
+  form {
+    display: flex;
+  
+    flex-direction: column;
+  }
+  
+  .already_account {
+    z-index: 1;
+    margin-top: 5px;
+    font-size: small;
+    color: white;
+  }
+  .already_account span {
+    cursor: pointer;
+    color: #f2039a;
+  }
+  .already_account span:hover {
+    text-decoration: underline;
+  }
+  .button_admin{
+width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .flex_1 button {
+    border: none;
+    background: rgba(0, 0, 0, 0.164);
+    padding: 10px;
+    cursor: pointer;
+   margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    width: 150px;
+  
+    border-radius: 20px;
+    border: 1px solid #f2039a;
+    color: #f2039a;
+
+    margin-top: 10px;
+  }
+  .flex_1 button:hover {
+    box-shadow: 0 0 1rem 0 #f2039a;
+  }
+  .signup span{
+    margin-top: 7px;
+    color: #fff;
+  }
+  .flex_1 input,textarea,select{
+    padding: 12px;
+    font-size: small;
+  
+    font-weight: 400;
+    max-width: 500px;
+  
+    border: 2px solid #f2039a;
+    background-color: #fff;
+    color: #000;
+
+
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+    overflow: hidden;
+  }
+  .fetch_select_div{
+    width: 100% !important;
+  }
+  
+  .flex_1 input,textarea,select:focus {
+    outline: none !important;
+    border: 2px solid #f2039a;
+  }
+  .to_sign_up {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 2px;
+  }
+  .sign_in {
+    margin-top: 17px;
+    font-size: x-large !important;
+    margin-bottom: 0 !important;
+  }
+  .forgot_h5 {
+    color: #f2039a;
+    text-align: center;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .forgot_h5:hover {
+    text-decoration: underline;
+  }
+  .sign_redirect {
+    margin-top: 20px;
+  }
+
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    opacity: 1; /* Firefox */
+  }
+  .fetch_select_div{
+    width: 300px;
+  }
+  .flex_1 button{
+    margin-top: 10px !important;
+
+  }
+  .select_div{
+    display: flex;
+    justify-content: center;
+width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button_registered{
+    width: 100%;
+    margin: auto;
+  }
+  .button_admin{
+    width: 400px !important;
+  }
+  .groupmember_row{
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: row;
+    padding: 5px;
+    gap: 5px;
+    padding-left: 0;
+  }
+  .groupmember_row::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+  .black2{
+    margin: 5px;
+    width: max-content !important;
+ margin: 0 !important;
+    margin-top: 5px !important;
+    border-radius: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .member_details_div{
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 10px;
+  }
+  .noof{
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .team{
+    display: flex;
+flex-direction: column;
+padding: 10px;
+color: #fff;
+border: 3px solid purple;
+border-radius: 10px;
+margin: 5px;
+
+  }
+  .group_members{
+    margin-top: 5px;
+  }
+  @media screen and (max-width: 960px) {
+    .flex_1 {
+      background-color: #00000000;
+    
+  width: 80%;
+    }
+    .fetch_select_div,.button_admin{
+      width: 300px !important;
+    }
+
+  }
+  .admin_btn{
+    margin-bottom: 6px !important;
+  }
+.select_div{
+  color: white;
+line-height: 40px;
+}

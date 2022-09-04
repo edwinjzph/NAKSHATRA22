@@ -1,0 +1,258 @@
+$color-white: #fff;
+$color-black: white;
+$color-primary: grey;
+$color-primary-light: rgba(12, 13, 13, 0.92);
+
+$color-primary-dark: rgba(12, 13, 13, 0.92);
+
+$color-grey-dark-2: black;
+$color-grey-dark-3: #f9ed68;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.back3{
+  z-index: 200;
+  position: fixed;
+
+top: 2rem;
+
+border: 2px solid rgb(255, 255, 255);
+padding: 10px;
+border-radius: 50%;
+color: #fff;
+max-height: 2rem;
+max-width: 2rem;
+cursor: pointer;
+left: 1rem;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+.back4{
+  z-index: 200;
+  position: fixed;
+  max-height: 6rem !important;
+  cursor: pointer;
+  top: .9rem;
+  object-fit: contain;
+
+  left: 5.4rem;
+max-width: 6rem;
+}
+.back5{
+  z-index: 200;
+  max-height: 7rem;
+  position: fixed;
+  cursor: pointer;
+  top: .6rem;
+  object-fit: contain;
+background: none !important;
+  left: 11rem;
+max-width: 7rem;
+}
+.navigation {
+  &__checkbox {
+    display: none;
+  }
+
+  &__button {
+    height: 3.5rem;
+
+    width: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.308);
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    border: 2px solid #f9ed68;
+    border-radius: 50%;
+    z-index: 2000001;
+
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &__background {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    position: fixed;
+    opacity: 0.8;
+    top: 1.2rem;
+    right: 1.2rem;
+    background-image: radial-gradient(
+      $color-primary-light,
+      $color-primary-dark
+    );
+    z-index: 1000;
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  &__nav {
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+
+    left: 0;
+    z-index: 0;
+    z-index: -10;
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  &__list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__item {
+    cursor: pointer;
+    margin: 20px auto;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      display: inline-block;
+      font-size: 1.3rem;
+      font-weight: 500;
+
+      padding: 1rem 1rem;
+      min-width: 200px;
+      color: $color-white;
+     
+
+      text-decoration: none;
+      text-transform: uppercase;
+      background-image: linear-gradient(
+        120deg,
+        transparent 0%,
+        transparent 50%,
+        $color-white 50%
+      );
+
+      background-size: 220%;
+      transition: all 0.4s;
+
+      span {
+        margin-right: 1.5rem;
+        display: inline-block;
+      }
+    }
+
+    &:hover,
+    &:active {
+      background-position: 100%;
+      color: $color-primary;
+      transform: translateX(1rem);
+    }
+  }
+
+  //FUNCTIONALITY
+  &__checkbox:checked ~ &__background {
+    transform: scale(100);
+  }
+
+  //FUNCTIONALITY
+
+  &__checkbox:checked ~ &__nav {
+    opacity: 1;
+    z-index: 20000;
+
+    width: 100%;
+  }
+
+  //ICON
+  &__icon {
+    position: relative;
+    margin-top: 1.7rem;
+
+    &,
+    &::before,
+    &::after {
+      width: 1.5rem;
+      border-radius: 5px;
+      height: 2px;
+      background-color: $color-grey-dark-3;
+      display: inline-block;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all 0.2s;
+    }
+
+    &::before {
+      top: -0.6rem;
+    }
+    &::after {
+      top: 0.6rem;
+    }
+  }
+
+  &__button:hover &__icon::before {
+    top: -0.4em;
+  }
+
+  &__button:hover &__icon::after {
+    top: 0.4rem;
+  }
+
+  &__checkbox:checked + &__button &__icon {
+    background-color: transparent;
+  }
+
+  &__checkbox:checked + &__button &__icon::before {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  &__checkbox:checked + &__button &__icon::after {
+    top: 0;
+    transform: rotate(-135deg);
+  }
+}
+@media screen and (max-width: 960px) {
+  .back4{
+
+    left: 5rem;
+    max-height: 6rem;
+    top: 1rem;
+    max-width: 4rem;
+  }
+  .back5{
+    left: 9rem;
+    max-height: 6rem;
+    max-width: 5rem;
+    top: .3rem !important;
+  }
+  .none{
+
+    left: .4rem;
+  }
+  .none1{
+
+   left: 4rem;
+  }
+  .back{
+    top: 1rem ;
+  }
+}
+.logodisplay{
+  display: none;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+

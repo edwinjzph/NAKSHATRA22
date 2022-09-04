@@ -1,0 +1,137 @@
+.Signup_box {
+  background-color: #000000;
+  background: rgb(177, 3, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(177, 3, 107, 1) 0%,
+    rgba(1, 25, 29, 1) 100%
+  );
+  object-fit: cover;
+  height: 100vh;
+
+  width: 100%;
+}
+.flex_1 {
+  max-width: 500px;
+  height: max-content;
+  padding-top: 70px !important;
+  align-items: center;
+  margin: auto;
+}
+.forgot_margin {
+  margin-top: 32px !important;
+}
+.flex_1 h5,
+button {
+  z-index: 200;
+}
+.signup h1 {
+  font-size: x-large !important;
+  margin-top: 17px;
+}
+.flex_1 h1 {
+  margin-bottom: 27px;
+  text-align: center;
+
+  font-size: xx-large;
+  font-weight: 700;
+}
+form {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.already_account {
+  z-index: 1;
+  margin-top: 5px;
+  font-size: small;
+  color: white;
+}
+.already_account span {
+  cursor: pointer;
+  color: #f2039a;
+}
+.already_account span:hover {
+  text-decoration: underline;
+}
+.flex_1 button {
+  border: none;
+  background: rgba(0, 0, 0, 0.164);
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  width: 150px;
+
+  border-radius: 20px;
+  border: 1px solid #f2039a;
+  color: #f2039a;
+  margin: auto;
+  margin-top: 10px;
+}
+.flex_1 button:hover {
+  box-shadow: 0 0 1rem 0 #f2039a;
+}
+.signup span{
+  color: #fff;
+}
+.flex_1 input {
+  padding: 12px;
+  font-size: small;
+
+  font-weight: 400;
+
+  border: 2px solid #f2039a;
+  background-color: #fff;
+  color: #000;
+  z-index: 200;
+
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  overflow: hidden;
+}
+
+.flex_1 input:focus {
+  outline: none !important;
+  border: 2px solid #f2039a;
+}
+.to_sign_up {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+.sign_in {
+  margin-top: 17px;
+  font-size: x-large !important;
+  margin-bottom: 0 !important;
+}
+.forgot_h5 {
+  color: #f2039a;
+  text-align: center;
+  margin: 15px;
+  cursor: pointer;
+}
+.forgot_h5:hover {
+  text-decoration: underline;
+}
+.sign_redirect {
+  margin-top: 20px;
+}
+@media screen and (max-width: 960px) {
+  .flex_1 {
+    background-color: #00000000;
+    padding: 30px;
+
+    min-width: 300px;
+    width: max-content;
+  }
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+  opacity: 1; /* Firefox */
+}

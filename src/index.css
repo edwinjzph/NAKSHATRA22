@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Gothic A1', sans-serif !important;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "batsman";
+  src: local("batman"), url("./fonts/Hardigan.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "light";
+  src: local("light"), url("./fonts/FutureLight.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "century";
+  src: local("century"), url("./fonts/CenturyGothic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "liberty";
+  src: local("liberty"), url("./fonts/NeonSans.ttf") format("truetype");
+  font-weight: normal;
+}

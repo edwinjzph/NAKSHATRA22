@@ -1,0 +1,108 @@
+.refer h1{
+    letter-spacing: 2px;
+    text-align: start;
+    text-shadow: 0 0 10px rgb(255, 0, 170), 0 0 30px rgb(255, 0, 212);
+    font-family: "light";
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.refer_details_div{
+    width: 80%;
+    margin: auto;
+}
+.sharebuttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    gap: 20px;
+   
+    justify-content: center;
+  }
+
+  .refer {
+      width: 100%;
+      align-items: center;
+      margin: auto;
+      color: white;
+      text-align: center;
+      display: flex;
+      background: linear-gradient(
+        90deg,
+        purple 0%,
+        rgba(1, 25, 29, 1) 100%
+      );
+      flex-direction: column;
+      height: 100%;
+  }
+  .content h2{
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  .refercount_butt{
+      width: 200px;
+      line-height: 18px;
+      font-size: 12px;
+      background: transparent;
+      color: white;
+
+box-shadow: none !important;
+      border: 1px solid purple;
+  }
+  .refercount h3{
+      color: white;
+      font-weight: 400 !important;
+      cursor: pointer;
+  }
+  .refer img{
+      height: 500px;
+      border-radius: 10px;
+      width: 500px;
+      margin: 30px;
+      
+  }
+  .refercount h4{
+      color: white;
+  }
+  .refercount{
+      display: flex;
+    align-items: center;
+    border:  1px solid purple;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+      flex-direction: row;
+      gap: 20px
+  }
+  .refer h4{
+      text-align: start;
+      width: 100%;
+      margin-top: 20px;
+      font-weight: 400;
+      margin-bottom: 20px;
+  }
+  .refer p{
+      text-align: start;
+  }
+  @media screen and (max-width: 600px) {
+.refercount{
+    flex-direction: column;
+    gap: 10px;
+}
+.refer img{
+    height: 350px;
+    width: 350px;
+  }}
+
+
+.referh1{
+    font-size: 25px !important;
+    margin-bottom: 10px;
+}

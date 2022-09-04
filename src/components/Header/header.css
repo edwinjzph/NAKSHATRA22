@@ -1,0 +1,251 @@
+.nk_home {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  background-image: url(https://ik.imagekit.io/p4td4xk6gcki/nk_qFziGwE2E?ik-sdk-version=javascript-1.4.3&updatedAt=1648117129177);
+  width: 100%;
+}
+.titles {
+  display: flex;
+  height: 100%;
+
+  color: #fff;
+  flex-direction: column;
+  text-align: start;
+
+  width: 50%;
+
+  position: absolute;
+
+  align-items: center;
+  justify-content: center;
+}
+.titles p {
+  
+  font-size: small;
+}
+.glow {
+  font-size: 114px;
+  font-family: "light";
+  text-align: center;
+  font-weight: 400px;
+  color: #fff;
+  text-shadow: 0 0 5px rgb(255, 0, 170), 0 0 20px rgb(255, 0, 212);
+}
+
+.counter {
+  display: flex;
+  gap: 4px;
+  align-items: baseline;
+
+  flex-direction: row;
+}
+.counter_display {
+  font-family: "liberty";
+}
+.timesup {
+  font-family: "liberty";
+  font-size: 35px;
+}
+.counter_display {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  text-shadow: 0 4px 10px rgb(255, 0, 170), 0 5px 20px rgb(255, 0, 212);
+  flex-direction: row;
+
+  align-items: baseline;
+  gap: 8px;
+}
+.counter_display p {
+  font-family: "light";
+  font-weight: 600;
+}
+.c0 {
+  font-size: 90px;
+}
+.c1 {
+  font-size: 75px;
+}
+.c2 {
+  font-size: 65px;
+}
+.c3 {
+  font-size: 40px;
+}
+.c0 p {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.c1 p {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.c2 p {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.c3 p {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 913px) {
+  .glow {
+    font-size: 80px;
+  }
+  .titles {
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .nk_home {
+    background-image: url(https://ik.imagekit.io/p4td4xk6gcki/Group_2__opCUJ5y3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648391164838);
+    align-content: flex-end;
+
+    flex-direction: column;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .c0 {
+    font-size: 45px;
+  }
+  .c1 {
+    font-size: 40px;
+  }
+  .c2 {
+    font-size: 30px;
+  }
+  .c3 {
+    font-size: 20px;
+  }
+  .c0 p {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .c1 p {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .c2 p {
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+  .c3 p {
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+  .titles {
+    height: 100%;
+    width: 80%;
+    align-items: unset;
+    justify-content: space-around;
+  }
+}
+
+.header_button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 0 20px;
+
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  overflow: hidden;
+  color: #fff;
+  transition: 0.5s;
+  letter-spacing: 2px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.header_button:hover {
+  background: none;
+  color: white;
+}
+.header_button span {
+  position: absolute;
+  display: block;
+}
+.header_button span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #f2039a);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+.header_button span:nth-child(2) {
+  top: -100px;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #f2039a);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+.header_button span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #f2039a);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+.header_button span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #f2039a);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}

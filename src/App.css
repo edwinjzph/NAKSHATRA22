@@ -1,0 +1,33 @@
+h1 {
+  color: white;
+}
+body {
+  background-color: black;
+  width: 100%;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  font-family: 'Gothic A1', sans-serif !important;
+}
+@media screen and (min-width: 960px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: purple;
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+
+}
+}
+
+

@@ -1,0 +1,145 @@
+.ticket_image {
+  max-height: 200px;
+  width: 80%;
+  
+margin-top: 30px;
+border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+.ticket_image img{
+  width: 100%;
+}
+.download {
+  width: 100%;
+
+  height: 100vh;
+  flex-direction: column;
+  background: rgb(177, 3, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(177, 3, 107, 1) 0%,
+    rgba(1, 25, 29, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.registerdetails h1 {
+  font-size: 20px;
+  font-family: "batsman";
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  margin: 5px;
+
+  text-align: center;
+}
+.registerdetails h2 {
+  font-size: 16px;
+  font-family: "batsman";
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  margin: 5px;
+
+  text-align: center;
+}
+.colour_div{
+  background-color: rgb(105, 14, 69) ;
+}
+.registerdetails {
+  width: min-content;
+height: max-content;
+  font-family: "batsman";
+  border: 3px solid #f2039a;
+  border-radius: 15px;
+
+  padding: 5px;
+  padding-bottom:0 ;
+background: rgb(105, 14, 69) ;
+  flex-direction: column;
+  padding-top: 0;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin: auto;
+  padding-right: 0;
+  
+  text-align: center;
+}
+.qr {
+  background-color: #fff;
+  padding: 5px;
+
+  border: 1px solid gray;
+  margin-top: 5px;
+}
+.registerdetails p {
+  color: white;
+  margin-top: 3px;
+  font-size: small;
+}
+.registerdetails h3 {
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 300;
+  color: #f2039a;
+}
+.download button{
+  padding: 10px;
+  border: 1px solid #f2039a;
+  color: #fff;
+  font-weight: 300;
+
+  cursor: pointer;
+  font-family: "batsman";
+  text-transform: uppercase;
+  margin-top: 10px;
+  background-color: #911162;
+  border-radius: 10px;
+}
+.content_registered {
+  padding: 10px;
+  text-align:start;
+  
+  width: 95%;
+ 
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  .registerdetails {
+    min-width: 300px;
+  }
+  .registerdetails p{
+    font-size: 10px;
+  }
+}
+.qr2{
+  width: 97%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+border-radius: 0 0 15px 15px;
+  bottom: 0;
+  padding: 5px;
+  padding-bottom: 0;
+  background-color: #911162;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.qr2_ele{
+  width: 95%;
+}
+.qr2_ele p{
+  font-size:xx-small ;
+}
